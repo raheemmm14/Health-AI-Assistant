@@ -59,7 +59,7 @@ st.markdown("""
 # Sidebar for Setup
 with st.sidebar:
     st.title("️🩺 Health AI Setup")
-    api_key = st.text_input("Enter Google Gemini API Key", type="password", value="AIzaSyCw9WrRagzSX0Hbb-1Nt7UcEmOOoshwdXY")
+    api_key = st.text_input("Enter Google Gemini API Key", type="password", value="Enter your API key")
     st.info("Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)")
     
     st.divider()
@@ -166,3 +166,4 @@ if st.button("Analyze Health Status"):
 # Footer
 st.divider()
 st.caption("Powered by Google Gemini | Designed for Sayyed Raheem")
+
